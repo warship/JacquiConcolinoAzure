@@ -1,0 +1,45 @@
+﻿@inherits Nancy.ViewEngines.Razor.NancyRazorViewBase<object>
+
+@{
+    Layout = "_Layout.cshtml";
+}
+
+<div class="row-fluid">
+    <div class="span3">
+        <p class="child-unit-header pagination-centered well">In the News</p>
+        <span class="label label-inverse">Aug 8</span> Golden ticket winners: Jennie Lee, Jacqui Concolino and Lindsey Wright punched their "Ticket to CME Group Titleholders" at the Jamie Farr Toledo Classic Presented by Kroger, Owens-Corning and O-I, each earning a spot in the season-ending CME Group Titleholders event... <a href="http://www.lpga.com/golf/news/2012/8/jamie-farr-final-round-notes.aspx">Read more</a>
+    </div>
+    <div class="span6">
+        <div id="myCarousel" class="carousel slide">
+          <div class="carousel-inner">
+            <div class="active item">
+                <img src="../Content/Images/jc1.jpg" />
+            </div>
+            <div class="item">
+                <img src="../Content/Images/jc2.jpg" />
+            </div>
+            <div class="item">
+                <img src="../Content/Images/jc3.jpg" />
+            </div>
+          </div>
+          <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
+          <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+        </div>
+    </div>
+    <div class="span3">
+        <p class="child-unit-header pagination-centered well">Sponsors</p>
+        <div class="pagination-centered">
+            <a href="http://www.ping.com">
+                <img class="sponsor" src="../Content/Images/ping.JPG" />
+            </a>
+            <hr />
+            <a href="http://www.titleist.com">
+                <img src="../Content/Images/titleist.JPG" />
+            </a>
+            <hr />
+            <a href="http://www.ladygolf.com">
+                <img src="../Content/Images/ladygolf.JPG" />
+            </a>
+        </div>
+    </div>
+</div>
