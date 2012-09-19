@@ -5730,7 +5730,7 @@ a.badge:hover {
 }
 
 .hero-unit {
-  padding: 60px;
+  padding: 20px;
   margin-bottom: 30px;
   background-color: #eeeeee;
   opacity: 0.9;
@@ -5765,7 +5765,7 @@ a.badge:hover {
 
 .child-unit-header {
   font-size: 18px;
-  font-family: 'Lithos Pro';
+  font-family: Arial;
 }
 
 .pull-right {
@@ -5798,6 +5798,7 @@ a.badge:hover {
 }
 
 .cardtext {
+  padding-left: 10px;
   line-height: 30px;
 }
 
@@ -5807,4 +5808,20 @@ a.badge:hover {
 
 .tab {
   margin-left: 20px;
+}
+
+.gallery {
+    background-color: #CCCCCC;
+    line-height: 0px;
+}
+
+.lightbox {
+  opacity: 0.8;
+  border: solid #CCCCCC;
+  border-width: 8px;
+}
+
+.lightbox:hover {
+  border: solid #589e29;
+  border-width: 5px;
 }
